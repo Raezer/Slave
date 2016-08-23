@@ -16,7 +16,7 @@ void adisRecieve(){
 }
 void SPI1_IRQHandler(void)
 {
-    if (SPI_I2S_GetITStatus(SPI3, SPI_I2S_IT_RXNE) == SET)
+    if (SPI_I2S_GetITStatus(SPI1, SPI_I2S_IT_RXNE) == SET)
     {
       if(device.receive()) {
             buf = device.read();   // Read byte from master
