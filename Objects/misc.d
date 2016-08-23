@@ -1,0 +1,11 @@
+.\objects\misc.o: Libraries\STM32F4xx_StdPeriph_Driver\src\misc.c
+.\objects\misc.o: .\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h
+.\objects\misc.o: .\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\stm32f4xx.h
+.\objects\misc.o: .\Libraries\CMSIS\Include\core_cm4.h
+.\objects\misc.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\misc.o: .\Libraries\CMSIS\Include\core_cmInstr.h
+.\objects\misc.o: .\Libraries\cmsis_armcc.h
+.\objects\misc.o: .\Libraries\CMSIS\Include\core_cmFunc.h
+.\objects\misc.o: .\Libraries\core_cmSimd.h
+.\objects\misc.o: .\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\system_stm32f4xx.h
+.\objects\misc.o: .\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h

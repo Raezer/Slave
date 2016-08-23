@@ -1,0 +1,435 @@
+Dependencies for Project 'master_spi', Target 'stm32f417': (DO NOT MODIFY !)
+F (.\src\main.c)(0x57BC4AF9)(--cpp -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\stm32f4xx.h)(0x574D223E)
+I (.\Libraries\CMSIS\Include\core_cm4.h)(0x57760EA0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55AF3C42)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x57760F6C)
+I (.\Libraries\cmsis_armcc.h)(0x57760F4C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x57760F3B)
+I (.\Libraries\core_cmSimd.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\system_stm32f4xx.h)(0x574D223E)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h)(0x54EEE41E)
+I (src\AdisRecv.h)(0x57BC4996)
+I (.\inc\Config.h)(0x57922475)
+I (.\inc\main.h)(0x57BC4996)
+F (.\src\Config.c)(0x57922475)(--cpp -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\config.o --omf_browse .\objects\config.crf --depend .\objects\config.d)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EC12E2C)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\stm32f4xx.h)(0x574D223E)
+I (.\Libraries\CMSIS\Include\core_cm4.h)(0x57760EA0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55AF3C42)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x57760F6C)
+I (.\Libraries\cmsis_armcc.h)(0x57760F4C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x57760F3B)
+I (.\Libraries\core_cmSimd.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\system_stm32f4xx.h)(0x574D223E)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h)(0x54EEE41E)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EC12E2C)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x5775057D)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EC12E2A)
+I (.\inc\Config.h)(0x57922475)
+F (.\src\AdisRecv.cpp)(0x57BC4C44)(--cpp -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\adisrecv.o --omf_browse .\objects\adisrecv.crf --depend .\objects\adisrecv.d)
+I (src\AdisRecv.h)(0x57BC4996)
+I (.\Libraries\mbed\api\mbed.h)(0x574D223E)
+I (.\Libraries\mbed\api\platform.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\device.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\objects.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\stm32f4xx.h)(0x574D223E)
+I (.\Libraries\CMSIS\Include\core_cm4.h)(0x57760EA0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55AF3C42)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x57760F6C)
+I (.\Libraries\cmsis_armcc.h)(0x57760F4C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x57760F3B)
+I (.\Libraries\core_cmSimd.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\system_stm32f4xx.h)(0x574D223E)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h)(0x54EEE41E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis_nvic.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PortNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PeripheralNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PinNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\gpio_object.h)(0x574D223E)
+I (.\Libraries\mbed\api\mbed_assert.h)(0x574D223E)
+I (C:\Keil\ARM\ARMCC\include\cstddef)(0x55AF3C42)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x55AF3C42)
+I (C:\Keil\ARM\ARMCC\include\cstdlib)(0x55AF3C42)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x55AF3C42)
+I (C:\Keil\ARM\ARMCC\include\cstdio)(0x55AF3C42)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x55AF3C42)
+I (C:\Keil\ARM\ARMCC\include\cstring)(0x55AF3C42)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x55AF3C42)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x55AF3C42)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x55AF3C42)
+I (.\Libraries\mbed\api\mbed_error.h)(0x574D223E)
+I (.\Libraries\mbed\api\mbed_interface.h)(0x574D223E)
+I (.\Libraries\mbed\api\DigitalIn.h)(0x577610E4)
+I (.\Libraries\mbed\hal\gpio_api.h)(0x574D223E)
+I (.\Libraries\mbed\api\DigitalOut.h)(0x574D223E)
+I (.\Libraries\mbed\api\DigitalInOut.h)(0x574D223E)
+I (.\Libraries\mbed\api\BusIn.h)(0x574D223E)
+I (.\Libraries\mbed\api\BusOut.h)(0x574D223E)
+I (.\Libraries\mbed\api\BusInOut.h)(0x574D223E)
+I (.\Libraries\mbed\api\PortIn.h)(0x574D223E)
+I (.\Libraries\mbed\hal\port_api.h)(0x574D223E)
+I (.\Libraries\mbed\api\PortInOut.h)(0x574D223E)
+I (.\Libraries\mbed\api\PortOut.h)(0x574D223E)
+I (.\Libraries\mbed\api\AnalogIn.h)(0x574D223E)
+I (.\Libraries\mbed\hal\analogin_api.h)(0x574D223E)
+I (.\Libraries\mbed\api\AnalogOut.h)(0x574D223E)
+I (.\Libraries\mbed\api\PwmOut.h)(0x574D223E)
+I (.\Libraries\mbed\api\Serial.h)(0x574D223E)
+I (.\Libraries\mbed\api\SPI.h)(0x574D223E)
+I (.\Libraries\mbed\hal\spi_api.h)(0x574D223E)
+I (.\Libraries\mbed\api\SPISlave.h)(0x574D223E)
+I (.\Libraries\mbed\api\I2C.h)(0x574D223E)
+I (.\Libraries\mbed\hal\i2c_api.h)(0x574D223E)
+I (.\Libraries\mbed\api\I2CSlave.h)(0x574D223E)
+I (.\Libraries\mbed\api\Ethernet.h)(0x574D223E)
+I (.\Libraries\mbed\api\CAN.h)(0x574D223E)
+I (.\Libraries\mbed\api\RawSerial.h)(0x574D223E)
+I (.\Libraries\mbed\api\Timer.h)(0x574D223E)
+I (.\Libraries\mbed\api\Ticker.h)(0x574D223E)
+I (.\Libraries\mbed\api\TimerEvent.h)(0x574D223E)
+I (.\Libraries\mbed\hal\us_ticker_api.h)(0x574D223E)
+I (.\Libraries\mbed\api\FunctionPointer.h)(0x574D223E)
+I (.\Libraries\mbed\api\Timeout.h)(0x574D223E)
+I (.\Libraries\mbed\api\LocalFileSystem.h)(0x574D223E)
+I (.\Libraries\mbed\api\InterruptIn.h)(0x574D223E)
+I (.\Libraries\mbed\api\wait_api.h)(0x574D223E)
+I (.\Libraries\mbed\hal\sleep_api.h)(0x574D223E)
+I (.\Libraries\mbed\api\rtc_time.h)(0x574D223E)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x5775057D)
+F (.\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f4xx.s)(0x4EC12E28)(--cpu Cortex-M4.fp -g --apcs=interwork -I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 516" --pd "STM32F40XX SETA 1"--list .\listings\startup_stm32f4xx.lst --xref -o .\objects\startup_stm32f4xx.o --depend .\objects\startup_stm32f4xx.d)
+F (.\Libraries\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c)(0x574D223E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\stm32f4xx.h)(0x574D223E)
+I (.\Libraries\CMSIS\Include\core_cm4.h)(0x57760EA0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55AF3C42)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x57760F6C)
+I (.\Libraries\cmsis_armcc.h)(0x57760F4C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x57760F3B)
+I (.\Libraries\core_cmSimd.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\system_stm32f4xx.h)(0x574D223E)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h)(0x54EEE41E)
+F (.\Libraries\STM32F4xx_StdPeriph_Driver\src\misc.c)(0x576D2FB1)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EC12E2A)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\stm32f4xx.h)(0x574D223E)
+I (.\Libraries\CMSIS\Include\core_cm4.h)(0x57760EA0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55AF3C42)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x57760F6C)
+I (.\Libraries\cmsis_armcc.h)(0x57760F4C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x57760F3B)
+I (.\Libraries\core_cmSimd.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\system_stm32f4xx.h)(0x574D223E)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h)(0x54EEE41E)
+F (.\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c)(0x576D2FA9)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\stm32f4xx_gpio.o --omf_browse .\objects\stm32f4xx_gpio.crf --depend .\objects\stm32f4xx_gpio.d)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h)(0x4EC12E2C)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\stm32f4xx.h)(0x574D223E)
+I (.\Libraries\CMSIS\Include\core_cm4.h)(0x57760EA0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55AF3C42)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x57760F6C)
+I (.\Libraries\cmsis_armcc.h)(0x57760F4C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x57760F3B)
+I (.\Libraries\core_cmSimd.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\system_stm32f4xx.h)(0x574D223E)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h)(0x54EEE41E)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EC12E2C)
+F (.\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_spi.c)(0x576D2FA9)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\stm32f4xx_spi.o --omf_browse .\objects\stm32f4xx_spi.crf --depend .\objects\stm32f4xx_spi.d)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x5775057D)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\stm32f4xx.h)(0x574D223E)
+I (.\Libraries\CMSIS\Include\core_cm4.h)(0x57760EA0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55AF3C42)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x57760F6C)
+I (.\Libraries\cmsis_armcc.h)(0x57760F4C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x57760F3B)
+I (.\Libraries\core_cmSimd.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\system_stm32f4xx.h)(0x574D223E)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h)(0x54EEE41E)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EC12E2C)
+F (.\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c)(0x576D2FD2)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\stm32f4xx_rcc.o --omf_browse .\objects\stm32f4xx_rcc.crf --depend .\objects\stm32f4xx_rcc.d)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EC12E2C)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\stm32f4xx.h)(0x574D223E)
+I (.\Libraries\CMSIS\Include\core_cm4.h)(0x57760EA0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55AF3C42)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x57760F6C)
+I (.\Libraries\cmsis_armcc.h)(0x57760F4C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x57760F3B)
+I (.\Libraries\core_cmSimd.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\system_stm32f4xx.h)(0x574D223E)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h)(0x54EEE41E)
+F (.\Libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c)(0x4EC12E2E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\stm32f4xx_tim.o --omf_browse .\objects\stm32f4xx_tim.crf --depend .\objects\stm32f4xx_tim.d)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h)(0x4EC12E2C)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\stm32f4xx.h)(0x574D223E)
+I (.\Libraries\CMSIS\Include\core_cm4.h)(0x57760EA0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55AF3C42)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x57760F6C)
+I (.\Libraries\cmsis_armcc.h)(0x57760F4C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x57760F3B)
+I (.\Libraries\core_cmSimd.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\system_stm32f4xx.h)(0x574D223E)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h)(0x54EEE41E)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EC12E2C)
+F (.\Libraries\mbed\common\assert.c)(0x574D223E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\assert.o --omf_browse .\objects\assert.crf --depend .\objects\assert.d)
+I (.\Libraries\mbed\api\mbed_assert.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\device.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\objects.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\stm32f4xx.h)(0x574D223E)
+I (.\Libraries\CMSIS\Include\core_cm4.h)(0x57760EA0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55AF3C42)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x57760F6C)
+I (.\Libraries\cmsis_armcc.h)(0x57760F4C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x57760F3B)
+I (.\Libraries\core_cmSimd.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\system_stm32f4xx.h)(0x574D223E)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h)(0x54EEE41E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis_nvic.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PortNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PeripheralNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PinNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\gpio_object.h)(0x574D223E)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x55AF3C42)
+I (.\Libraries\mbed\api\mbed_interface.h)(0x574D223E)
+F (.\Libraries\mbed\common\board.c)(0x574D223E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\board.o --omf_browse .\objects\board.crf --depend .\objects\board.d)
+I (.\Libraries\mbed\hal\gpio_api.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\device.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\objects.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\stm32f4xx.h)(0x574D223E)
+I (.\Libraries\CMSIS\Include\core_cm4.h)(0x57760EA0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55AF3C42)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x57760F6C)
+I (.\Libraries\cmsis_armcc.h)(0x57760F4C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x57760F3B)
+I (.\Libraries\core_cmSimd.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\system_stm32f4xx.h)(0x574D223E)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h)(0x54EEE41E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis_nvic.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PortNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PeripheralNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PinNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\gpio_object.h)(0x574D223E)
+I (.\Libraries\mbed\api\mbed_assert.h)(0x574D223E)
+I (.\Libraries\mbed\api\wait_api.h)(0x574D223E)
+I (.\Libraries\mbed\api\toolchain.h)(0x574D223E)
+I (.\Libraries\mbed\api\mbed_interface.h)(0x574D223E)
+F (.\Libraries\mbed\common\error.c)(0x574D223E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\error.o --omf_browse .\objects\error.crf --depend .\objects\error.d)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x55AF3C42)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x55AF3C42)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\device.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\objects.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\stm32f4xx.h)(0x574D223E)
+I (.\Libraries\CMSIS\Include\core_cm4.h)(0x57760EA0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55AF3C42)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x57760F6C)
+I (.\Libraries\cmsis_armcc.h)(0x57760F4C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x57760F3B)
+I (.\Libraries\core_cmSimd.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\system_stm32f4xx.h)(0x574D223E)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h)(0x54EEE41E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis_nvic.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PortNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PeripheralNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PinNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\gpio_object.h)(0x574D223E)
+I (.\Libraries\mbed\api\mbed_assert.h)(0x574D223E)
+I (.\Libraries\mbed\api\toolchain.h)(0x574D223E)
+I (.\Libraries\mbed\api\mbed_error.h)(0x574D223E)
+F (.\Libraries\mbed\common\gpio.c)(0x574D223E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (.\Libraries\mbed\hal\gpio_api.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\device.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\objects.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\stm32f4xx.h)(0x574D223E)
+I (.\Libraries\CMSIS\Include\core_cm4.h)(0x57760EA0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55AF3C42)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x57760F6C)
+I (.\Libraries\cmsis_armcc.h)(0x57760F4C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x57760F3B)
+I (.\Libraries\core_cmSimd.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\system_stm32f4xx.h)(0x574D223E)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h)(0x54EEE41E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis_nvic.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PortNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PeripheralNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PinNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\gpio_object.h)(0x574D223E)
+I (.\Libraries\mbed\api\mbed_assert.h)(0x574D223E)
+F (.\Libraries\mbed\common\pinmap_common.c)(0x574D223E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\pinmap_common.o --omf_browse .\objects\pinmap_common.crf --depend .\objects\pinmap_common.d)
+I (.\Libraries\mbed\hal\pinmap.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PinNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\stm32f4xx.h)(0x574D223E)
+I (.\Libraries\CMSIS\Include\core_cm4.h)(0x57760EA0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55AF3C42)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x57760F6C)
+I (.\Libraries\cmsis_armcc.h)(0x57760F4C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x57760F3B)
+I (.\Libraries\core_cmSimd.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\system_stm32f4xx.h)(0x574D223E)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h)(0x54EEE41E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis_nvic.h)(0x574D223E)
+I (.\Libraries\mbed\api\mbed_error.h)(0x574D223E)
+F (.\Libraries\mbed\common\us_ticker_api.c)(0x574D223E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\us_ticker_api.o --omf_browse .\objects\us_ticker_api.crf --depend .\objects\us_ticker_api.d)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x55AF3C42)
+I (.\Libraries\mbed\hal\us_ticker_api.h)(0x574D223E)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55AF3C42)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\stm32f4xx.h)(0x574D223E)
+I (.\Libraries\CMSIS\Include\core_cm4.h)(0x57760EA0)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x57760F6C)
+I (.\Libraries\cmsis_armcc.h)(0x57760F4C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x57760F3B)
+I (.\Libraries\core_cmSimd.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\system_stm32f4xx.h)(0x574D223E)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h)(0x54EEE41E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis_nvic.h)(0x574D223E)
+F (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis_nvic.c)(0x574D223E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\cmsis_nvic.o --omf_browse .\objects\cmsis_nvic.crf --depend .\objects\cmsis_nvic.d)
+I (Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis_nvic.h)(0x574D223E)
+I (Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis.h)(0x574D223E)
+I (Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\stm32f4xx.h)(0x574D223E)
+I (.\Libraries\CMSIS\Include\core_cm4.h)(0x57760EA0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55AF3C42)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x57760F6C)
+I (.\Libraries\cmsis_armcc.h)(0x57760F4C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x57760F3B)
+I (.\Libraries\core_cmSimd.h)(0x574D223E)
+I (Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\system_stm32f4xx.h)(0x574D223E)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h)(0x54EEE41E)
+F (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\us_ticker.c)(0x574D223E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\us_ticker.o --omf_browse .\objects\us_ticker.crf --depend .\objects\us_ticker.d)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x55AF3C42)
+I (.\Libraries\mbed\hal\us_ticker_api.h)(0x574D223E)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55AF3C42)
+I (Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PeripheralNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\stm32f4xx.h)(0x574D223E)
+I (.\Libraries\CMSIS\Include\core_cm4.h)(0x57760EA0)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x57760F6C)
+I (.\Libraries\cmsis_armcc.h)(0x57760F4C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x57760F3B)
+I (.\Libraries\core_cmSimd.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\system_stm32f4xx.h)(0x574D223E)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h)(0x54EEE41E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis_nvic.h)(0x574D223E)
+F (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\spi_api.c)(0x574D223E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\spi_api.o --omf_browse .\objects\spi_api.crf --depend .\objects\spi_api.d)
+I (.\Libraries\mbed\api\mbed_assert.h)(0x574D223E)
+I (.\Libraries\mbed\hal\spi_api.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\device.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\objects.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\stm32f4xx.h)(0x574D223E)
+I (.\Libraries\CMSIS\Include\core_cm4.h)(0x57760EA0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55AF3C42)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x57760F6C)
+I (.\Libraries\cmsis_armcc.h)(0x57760F4C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x57760F3B)
+I (.\Libraries\core_cmSimd.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\system_stm32f4xx.h)(0x574D223E)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h)(0x54EEE41E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis_nvic.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PortNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PeripheralNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PinNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\gpio_object.h)(0x574D223E)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x55AF3C42)
+I (.\Libraries\mbed\hal\pinmap.h)(0x574D223E)
+F (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\pinmap.c)(0x574D223E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\pinmap.o --omf_browse .\objects\pinmap.crf --depend .\objects\pinmap.d)
+I (.\Libraries\mbed\api\mbed_assert.h)(0x574D223E)
+I (.\Libraries\mbed\hal\pinmap.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PinNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\stm32f4xx.h)(0x574D223E)
+I (.\Libraries\CMSIS\Include\core_cm4.h)(0x57760EA0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55AF3C42)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x57760F6C)
+I (.\Libraries\cmsis_armcc.h)(0x57760F4C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x57760F3B)
+I (.\Libraries\core_cmSimd.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\system_stm32f4xx.h)(0x574D223E)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h)(0x54EEE41E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis_nvic.h)(0x574D223E)
+I (.\Libraries\mbed\api\mbed_error.h)(0x574D223E)
+F (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\gpio_api.c)(0x574D223E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\gpio_api.o --omf_browse .\objects\gpio_api.crf --depend .\objects\gpio_api.d)
+I (.\Libraries\mbed\api\mbed_assert.h)(0x574D223E)
+I (.\Libraries\mbed\hal\gpio_api.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\device.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\objects.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\stm32f4xx.h)(0x574D223E)
+I (.\Libraries\CMSIS\Include\core_cm4.h)(0x57760EA0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55AF3C42)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x57760F6C)
+I (.\Libraries\cmsis_armcc.h)(0x57760F4C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x57760F3B)
+I (.\Libraries\core_cmSimd.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\system_stm32f4xx.h)(0x574D223E)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h)(0x54EEE41E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis_nvic.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PortNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PeripheralNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PinNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\gpio_object.h)(0x574D223E)
+I (.\Libraries\mbed\hal\pinmap.h)(0x574D223E)
+F (.\Libraries\mbed\common\SPI.cpp)(0x574D223E)(--cpp -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (.\Libraries\mbed\api\SPI.h)(0x574D223E)
+I (.\Libraries\mbed\api\platform.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\device.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\objects.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\stm32f4xx.h)(0x574D223E)
+I (.\Libraries\CMSIS\Include\core_cm4.h)(0x57760EA0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55AF3C42)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x57760F6C)
+I (.\Libraries\cmsis_armcc.h)(0x57760F4C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x57760F3B)
+I (.\Libraries\core_cmSimd.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\system_stm32f4xx.h)(0x574D223E)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h)(0x54EEE41E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis_nvic.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PortNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PeripheralNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PinNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\gpio_object.h)(0x574D223E)
+I (.\Libraries\mbed\api\mbed_assert.h)(0x574D223E)
+I (C:\Keil\ARM\ARMCC\include\cstddef)(0x55AF3C42)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x55AF3C42)
+I (C:\Keil\ARM\ARMCC\include\cstdlib)(0x55AF3C42)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x55AF3C42)
+I (C:\Keil\ARM\ARMCC\include\cstdio)(0x55AF3C42)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x55AF3C42)
+I (C:\Keil\ARM\ARMCC\include\cstring)(0x55AF3C42)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x55AF3C42)
+I (.\Libraries\mbed\hal\spi_api.h)(0x574D223E)
+F (.\Libraries\mbed\common\wait_api.c)(0x574D223E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\wait_api.o --omf_browse .\objects\wait_api.crf --depend .\objects\wait_api.d)
+I (.\Libraries\mbed\api\wait_api.h)(0x574D223E)
+I (.\Libraries\mbed\hal\us_ticker_api.h)(0x574D223E)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55AF3C42)
+F (.\Libraries\mbed\common\SPISlave.cpp)(0x574D223E)(--cpp -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\spislave.o --omf_browse .\objects\spislave.crf --depend .\objects\spislave.d)
+I (.\Libraries\mbed\api\SPISlave.h)(0x574D223E)
+I (.\Libraries\mbed\api\platform.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\device.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\objects.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\stm32f4xx.h)(0x574D223E)
+I (.\Libraries\CMSIS\Include\core_cm4.h)(0x57760EA0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55AF3C42)
+I (.\Libraries\CMSIS\Include\core_cmInstr.h)(0x57760F6C)
+I (.\Libraries\cmsis_armcc.h)(0x57760F4C)
+I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x57760F3B)
+I (.\Libraries\core_cmSimd.h)(0x574D223E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\system_stm32f4xx.h)(0x574D223E)
+I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h)(0x54EEE41E)
+I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis_nvic.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PortNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PeripheralNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\PinNames.h)(0x574D223E)
+I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\gpio_object.h)(0x574D223E)
+I (.\Libraries\mbed\api\mbed_assert.h)(0x574D223E)
+I (C:\Keil\ARM\ARMCC\include\cstddef)(0x55AF3C42)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x55AF3C42)
+I (C:\Keil\ARM\ARMCC\include\cstdlib)(0x55AF3C42)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x55AF3C42)
+I (C:\Keil\ARM\ARMCC\include\cstdio)(0x55AF3C42)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x55AF3C42)
+I (C:\Keil\ARM\ARMCC\include\cstring)(0x55AF3C42)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x55AF3C42)
+I (.\Libraries\mbed\hal\spi_api.h)(0x574D223E)

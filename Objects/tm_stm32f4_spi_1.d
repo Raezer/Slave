@@ -1,0 +1,17 @@
+.\objects\tm_stm32f4_spi_1.o: Libraries\tm_stm32f4_spi.c
+.\objects\tm_stm32f4_spi_1.o: Libraries\tm_stm32f4_spi.h
+.\objects\tm_stm32f4_spi_1.o: .\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\stm32f4xx.h
+.\objects\tm_stm32f4_spi_1.o: .\Libraries\CMSIS\Include\core_cm4.h
+.\objects\tm_stm32f4_spi_1.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\tm_stm32f4_spi_1.o: .\Libraries\CMSIS\Include\core_cmInstr.h
+.\objects\tm_stm32f4_spi_1.o: .\Libraries\cmsis_armcc.h
+.\objects\tm_stm32f4_spi_1.o: .\Libraries\CMSIS\Include\core_cmFunc.h
+.\objects\tm_stm32f4_spi_1.o: .\Libraries\core_cmSimd.h
+.\objects\tm_stm32f4_spi_1.o: .\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\system_stm32f4xx.h
+.\objects\tm_stm32f4_spi_1.o: .\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h
+.\objects\tm_stm32f4_spi_1.o: .\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h
+.\objects\tm_stm32f4_spi_1.o: .\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h
+.\objects\tm_stm32f4_spi_1.o: .\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h
+.\objects\tm_stm32f4_spi_1.o: Libraries\defines.h
+.\objects\tm_stm32f4_spi_1.o: Libraries\attributes.h
+.\objects\tm_stm32f4_spi_1.o: Libraries\tm_stm32f4_gpio.h

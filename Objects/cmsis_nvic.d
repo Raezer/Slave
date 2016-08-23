@@ -1,0 +1,13 @@
+.\objects\cmsis_nvic.o: Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis_nvic.c
+.\objects\cmsis_nvic.o: Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis_nvic.h
+.\objects\cmsis_nvic.o: Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis.h
+.\objects\cmsis_nvic.o: Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\stm32f4xx.h
+.\objects\cmsis_nvic.o: .\Libraries\CMSIS\Include\core_cm4.h
+.\objects\cmsis_nvic.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\cmsis_nvic.o: .\Libraries\CMSIS\Include\core_cmInstr.h
+.\objects\cmsis_nvic.o: .\Libraries\cmsis_armcc.h
+.\objects\cmsis_nvic.o: .\Libraries\CMSIS\Include\core_cmFunc.h
+.\objects\cmsis_nvic.o: .\Libraries\core_cmSimd.h
+.\objects\cmsis_nvic.o: Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\system_stm32f4xx.h
+.\objects\cmsis_nvic.o: .\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h
+.\objects\cmsis_nvic.o: Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\cmsis_nvic.h

@@ -1,0 +1,15 @@
+.\objects\hrc.o: Libraries\HRC.cpp
+.\objects\hrc.o: Libraries\HRC.h
+.\objects\hrc.o: Libraries\Singleton.h
+.\objects\hrc.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hrc.o: .\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h
+.\objects\hrc.o: .\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\stm32f4xx.h
+.\objects\hrc.o: .\Libraries\CMSIS\Include\core_cm4.h
+.\objects\hrc.o: .\Libraries\CMSIS\Include\core_cmInstr.h
+.\objects\hrc.o: .\Libraries\cmsis_armcc.h
+.\objects\hrc.o: .\Libraries\CMSIS\Include\core_cmFunc.h
+.\objects\hrc.o: .\Libraries\core_cmSimd.h
+.\objects\hrc.o: .\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\system_stm32f4xx.h
+.\objects\hrc.o: .\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h
+.\objects\hrc.o: .\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h
+.\objects\hrc.o: Libraries\AtomicOps.h

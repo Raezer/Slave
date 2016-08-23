@@ -1,0 +1,54 @@
+#include "stm32f4xx_gpio.h"
+#include "stm32f4xx_rcc.h"
+#include "stm32f4xx_spi.h"
+#include "misc.h"
+#include "Config.h"
+
+GPIO_InitTypeDef gpioInitStruct;
+	
+void Config_PINS(void){
+	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOE, ENABLE);
+	gpioInitStruct.GPIO_Pin = GPIO_Pin_15;
+	gpioInitStruct.GPIO_Mode = GPIO_Mode_OUT;
+	GPIO_Init(GPIOE, &gpioInitStruct);
+}
+
+NVIC_InitTypeDef   NVIC_InitStructure;
+
+void Config_NVIC(void){
+  NVIC_PriorityGroupConfig(NVIC_PriorityGroup_1); 
+  NVIC_InitStructure.NVIC_IRQChannel = SPI1_IRQn; 
+  NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0; 
+  NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0; 
+	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+  NVIC_Init(&NVIC_InitStructure);    
+	SPI_I2S_ITConfig(SPI1,SPI_I2S_IT_RXNE,ENABLE);
+  NVIC_EnableIRQ(SPI1_IRQn);
+}
+Привет.
+Первое.
+ Прибегали из третьего отделения, по приказу Мициной, сказали что мы должны выдавать некие сигналы, из блока управления по написаным ими законам,
+ написали "примерную" формулу этого сигнала. Сказали что МАРС 
+им дискету давал с запрагриммироваными законами, они ее вставляли и все работало, подробней ответить не смогли... я как обычно не очень понял, завтра с утра прийдут с
+книжкой будем разбираться.
+Второе.
+Взял библиотеку mbed и использую ее для обмена.
+Нигде не увидел у Васи прерывания по приему spi, только по высокому уровню ножки от адиса, которая сообщает что информация готова, я правильно увидел?
+Прием идет нормально и все совпадает.
+Следующий вопрос:
+Что точно должно идти по SPI при такой команде 
+___________________________________________
+_write_uint16_cmd(0x02, 0x01 << 1);
+___________________________________________
+
+__________________________________________________________
+void _write_uint16_cmd(uint8_t a_reg, uint16_t a_cmd) {
+	_write_spi(_compose_write_cmd(a_reg, a_cmd & 0xff));
+	_write_spi(_compose_write_cmd(a_reg+1, a_cmd >> 8));
+	}	
+_________________________________________________________________
+uint16_t _compose_write_cmd(uint8_t a_register, uint8_t a_data) {
+	return (static_cast<uint16_t>(a_register | 0x80) | a_data;
+	}
+
+Грубо говоря, как мне понять какие числа ожидать, чтобы дать правильный ответ?
