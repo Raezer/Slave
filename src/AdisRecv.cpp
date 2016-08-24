@@ -5,6 +5,7 @@ int v[100];
 	int buf;
 	int i=0;
 SPISlave device(PB_5, PA_6, PA_5,PA_4); 
+//SPISlave(PinName mosi, PinName miso, PinName sclk, PinName ssel);
 void init(){
 	
 	device.format(SPI_BITS_PER_SENDING, SPI_MODE);
@@ -14,17 +15,16 @@ void init(){
 int pageNum;
 void adisRecieve(){
 	 if(device.receive()) {
-            buf = device.read();   // Read byte from master
-            if (buf==0x8003)
-						{
-							pageNum=3;
-						}
-						v[i]=buf;
-						
-			 // v = v;     // Add one to it, modulo 256
-            device.reply(v[i]);
-			      i++;
-//переключение страниц, ждем 0х8003 
+     buf = device.read();   // Read byte from master
+            //переключение страниц, ждем 0х8003 
+		 if (buf==0x8003)
+			{
+			 pageNum=3;
+			}
+		 v[i]=buf;
+		 device.reply(v[i]);
+		 i++;
+
 						
 		 }
 }

@@ -1362,7 +1362,7 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-       156         26          4         12        416       6844   adisrecv.o
+       156         26          4         12        416       6840   adisrecv.o
         14          0          0          0          0       4491   assert.o
         20          0          0          0          0        475   board.o
         84          6          0          0          0     235460   cmsis_nvic.o
@@ -1379,7 +1379,7 @@ Image component sizes
         84          6          0          0          0        891   wait_api.o
 
     ----------------------------------------------------------------------
-      3186        426        832         44       1952     774097   Object Totals
+      3186        426        832         44       1952     774093   Object Totals
          0          0         32          0          0          0   (incl. Generated)
          2          0          3          0          0          0   (incl. Padding)
 
@@ -1431,8 +1431,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      3516        452        832         44       2052     773069   Grand Totals
-      3516        452        832         44       2052     773069   ELF Image Totals
+      3516        452        832         44       2052     773065   Grand Totals
+      3516        452        832         44       2052     773065   ELF Image Totals
       3516        452        832         44          0          0   ROM Totals
 
 ==============================================================================

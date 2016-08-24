@@ -148,9 +148,9 @@
         <Bp>
           <Number>0</Number>
           <Type>0</Type>
-          <LineNumber>19</LineNumber>
+          <LineNumber>20</LineNumber>
           <EnabledFlag>1</EnabledFlag>
-          <Address>134218450</Address>
+          <Address>134218362</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -159,7 +159,55 @@
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>.\src\AdisRecv.cpp</Filename>
           <ExecCommand></ExecCommand>
-          <Expression>\\master_spi\src/AdisRecv.cpp\19</Expression>
+          <Expression>\\master_spi\src/AdisRecv.cpp\20</Expression>
+        </Bp>
+        <Bp>
+          <Number>1</Number>
+          <Type>0</Type>
+          <LineNumber>7</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134218284</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>.\src\main.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\master_spi\src/main.c\7</Expression>
+        </Bp>
+        <Bp>
+          <Number>2</Number>
+          <Type>0</Type>
+          <LineNumber>22</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>0</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>0</BreakIfRCount>
+          <Filename>.\src\AdisRecv.cpp</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
+        </Bp>
+        <Bp>
+          <Number>3</Number>
+          <Type>0</Type>
+          <LineNumber>31</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>0</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>0</BreakIfRCount>
+          <Filename>.\src\AdisRecv.cpp</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression></Expression>
         </Bp>
       </Breakpoint>
       <WatchWindow1>
@@ -177,6 +225,11 @@
           <count>2</count>
           <WinNumber>1</WinNumber>
           <ItemText>pageflag</ItemText>
+        </Ww>
+        <Ww>
+          <count>3</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>buf</ItemText>
         </Ww>
       </WatchWindow1>
       <Tracepoint>
