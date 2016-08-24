@@ -1,7 +1,7 @@
 #ifndef ADISRECV_H
 #define ADISRECV_H
 void init();
-
+void adisRecieve();
 	enum {
 		SPI_BITS_PER_SENDING = 16,
 		SPI_MODE = 3,

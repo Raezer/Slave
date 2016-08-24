@@ -6,9 +6,9 @@
 int main(void){
 	SystemInit();
 	init();
-	Config_NVIC();
+	//Config_NVIC();
 	while(1) 
 	{
-		 
+		 adisRecieve();
 	}
 }
