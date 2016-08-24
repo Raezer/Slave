@@ -1,9 +1,11 @@
 #include "AdisRecv.h"
 #include "mbed.h"
 #include "stm32f4xx_spi.h"
-int v[100];
+int cmdHistory[100];
+int cmdHandled[100];
 	int buf;
-	int i=0;
+	int ans;
+	int cmdHandledN=0,i=0;
 SPISlave device(PB_5, PA_6, PA_5,PA_4); 
 //SPISlave(PinName mosi, PinName miso, PinName sclk, PinName ssel);
 void init(){
@@ -16,16 +18,43 @@ int pageNum;
 void adisRecieve(){
 	 if(device.receive()) {
      buf = device.read();   // Read byte from master
-            //переключение страниц, ждем 0х8003 
+            //переключение страниц, ждем 0х8003
+						//8280 8300 softreset
+		 
 		 if (buf==0x8003)
 			{
 			 pageNum=3;
 			}
-		 v[i]=buf;
-		 device.reply(v[i]);
-		 i++;
-
-						
+			 if (buf==0x8000)
+			{
+			 pageNum=0;
+			}
+			//selftest
+			if (buf==0x0A00)
+			{
+				cmdHandled[cmdHandledN]=buf;
+				buf=0x00;
+				cmdHandledN++;
+			}
+			//mode
+			if (buf==0x5000)
+			{
+				cmdHandled[cmdHandledN]=buf;
+				buf=0x000a;
+				cmdHandledN++;
+			}
+			//whoami
+			if (buf==0x7E00)
+			{
+				cmdHandled[cmdHandledN]=buf;
+				buf=0x4060;
+				cmdHandledN++;
+			}
+			//prod_id=0x4060
+		 cmdHistory[i]=buf;
+		 device.reply(buf);
+		 i++;	
+		
 		 }
 }
 

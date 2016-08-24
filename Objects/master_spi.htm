@@ -3,11 +3,11 @@
 <title>Static Call Graph - [.\Objects\master_spi.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\master_spi.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060020: Last Updated: Wed Aug 24 14:32:03 2016
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060020: Last Updated: Wed Aug 24 16:33:26 2016
 <BR><P>
 <H3>Maximum Stack Usage =        232 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
-__sti___12_AdisRecv_cpp_i &rArr; mbed::SPISlave::SPISlave(PinName, PinName, PinName, PinName) &rArr; spi_init &rArr; pinmap_pinout &rArr; pin_function &rArr; mbed_assert_internal &rArr; mbed_die &rArr; wait_ms &rArr; wait_us &rArr; us_ticker_read &rArr; us_ticker_init &rArr; NVIC_SetVector
+__sti___12_AdisRecv_cpp_a1cbbc57 &rArr; mbed::SPISlave::SPISlave(PinName, PinName, PinName, PinName) &rArr; spi_init &rArr; pinmap_pinout &rArr; pin_function &rArr; mbed_assert_internal &rArr; mbed_die &rArr; wait_ms &rArr; wait_us &rArr; us_ticker_read &rArr; us_ticker_init &rArr; NVIC_SetVector
 <P>
 <H3>
 Functions with no stack information
@@ -127,7 +127,7 @@ Function Pointers
  <LI><a href="#[12]">UsageFault_Handler</a> from startup_stm32f4xx.o(.text) referenced from startup_stm32f4xx.o(RESET)
  <LI><a href="#[17]">WWDG_IRQHandler</a> from startup_stm32f4xx.o(.text) referenced from startup_stm32f4xx.o(RESET)
  <LI><a href="#[6d]">__main</a> from __main.o(!!!main) referenced from startup_stm32f4xx.o(.text)
- <LI><a href="#[6c]">__sti___12_AdisRecv_cpp_i</a> from adisrecv.o(.text) referenced from adisrecv.o(.init_array)
+ <LI><a href="#[6c]">__sti___12_AdisRecv_cpp_a1cbbc57</a> from adisrecv.o(.text) referenced from adisrecv.o(.init_array)
  <LI><a href="#[6b]">us_ticker_irq_handler</a> from us_ticker_api.o(.text) referenced from us_ticker.o(.text)
 </UL>
 <P>
@@ -296,7 +296,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[82]"></a>adisRecieve()</STRONG> (Thumb, 80 bytes, Stack size 8 bytes, adisrecv.o(.text))
+<P><STRONG><a name="[82]"></a>adisRecieve()</STRONG> (Thumb, 214 bytes, Stack size 8 bytes, adisrecv.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = adisRecieve() &rArr; mbed::SPISlave::reply(int) &rArr; spi_slave_write
 </UL>
 <BR>[Calls]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbed::SPISlave::receive()
@@ -880,7 +880,7 @@ Global Symbols
 <LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;spi_format
 <LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;spi_frequency
 </UL>
-<BR>[Called By]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__sti___12_AdisRecv_cpp_i
+<BR>[Called By]<UL><LI><a href="#[6c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__sti___12_AdisRecv_cpp_a1cbbc57
 </UL>
 
 <P><STRONG><a name="[d4]"></a>mbed::SPISlave::SPISlave__sub_object(PinName, PinName, PinName, PinName)</STRONG> (Thumb, 0 bytes, Stack size 32 bytes, spislave.o(.text), UNUSED)
@@ -987,9 +987,9 @@ Global Symbols
 <H3>
 Local Symbols
 </H3>
-<P><STRONG><a name="[6c]"></a>__sti___12_AdisRecv_cpp_i</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, adisrecv.o(.text))
+<P><STRONG><a name="[6c]"></a>__sti___12_AdisRecv_cpp_a1cbbc57</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, adisrecv.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 232 + Unknown Stack Size
-<LI>Call Chain = __sti___12_AdisRecv_cpp_i &rArr; mbed::SPISlave::SPISlave(PinName, PinName, PinName, PinName) &rArr; spi_init &rArr; pinmap_pinout &rArr; pin_function &rArr; mbed_assert_internal &rArr; mbed_die &rArr; wait_ms &rArr; wait_us &rArr; us_ticker_read &rArr; us_ticker_init &rArr; NVIC_SetVector
+<LI>Call Chain = __sti___12_AdisRecv_cpp_a1cbbc57 &rArr; mbed::SPISlave::SPISlave(PinName, PinName, PinName, PinName) &rArr; spi_init &rArr; pinmap_pinout &rArr; pin_function &rArr; mbed_assert_internal &rArr; mbed_die &rArr; wait_ms &rArr; wait_us &rArr; us_ticker_read &rArr; us_ticker_init &rArr; NVIC_SetVector
 </UL>
 <BR>[Calls]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mbed::SPISlave::SPISlave(PinName, PinName, PinName, PinName)
 </UL>
