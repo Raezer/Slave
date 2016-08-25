@@ -429,7 +429,7 @@
             <File>
               <FileName>AdisRecv.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>.\AdisRecv.cpp</FilePath>
+              <FilePath>.\src\AdisRecv.cpp</FilePath>
             </File>
           </Files>
         </Group>

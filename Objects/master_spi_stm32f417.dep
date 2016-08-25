@@ -1,5 +1,5 @@
 Dependencies for Project 'master_spi', Target 'stm32f417': (DO NOT MODIFY !)
-F (.\src\main.c)(0x57BC4AF9)(--cpp -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\src\main.c)(0x57BD49A8)(--cpp -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\stm32f4xx.h)(0x574D223E)
 I (.\Libraries\CMSIS\Include\core_cm4.h)(0x57760EA0)
 I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x55AF3C42)
@@ -9,7 +9,7 @@ I (.\Libraries\CMSIS\Include\core_cmFunc.h)(0x57760F3B)
 I (.\Libraries\core_cmSimd.h)(0x574D223E)
 I (.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX\system_stm32f4xx.h)(0x574D223E)
 I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_conf.h)(0x54EEE41E)
-I (src\AdisRecv.h)(0x57BC4996)
+I (src\AdisRecv.h)(0x57BE966F)
 I (.\inc\Config.h)(0x57922475)
 I (.\inc\main.h)(0x57BC4996)
 F (.\src\Config.c)(0x57922475)(--cpp -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\config.o --omf_browse .\objects\config.crf --depend .\objects\config.d)
@@ -27,8 +27,8 @@ I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h)(0x4EC12E2C)
 I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h)(0x5775057D)
 I (.\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h)(0x4EC12E2A)
 I (.\inc\Config.h)(0x57922475)
-F (.\src\AdisRecv.cpp)(0x57BC4C44)(--cpp -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\adisrecv.o --omf_browse .\objects\adisrecv.crf --depend .\objects\adisrecv.d)
-I (src\AdisRecv.h)(0x57BC4996)
+F (.\src\AdisRecv.cpp)(0x57BE9556)(--cpp -c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\Libraries\CMSIS\Include -I.\Libraries\STM32F4xx_StdPeriph_Driver\inc -I.\Libraries -I.\Libraries\mbed\hal -I.\Libraries\mbed\api -I.\Libraries\mbed\targets\cmsis\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX -I.\Libraries\tm_libraries -I.\inc --exceptions --diag_suppress=368-I C:\work\kazan_ethernet\Slave\RTE-I C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include-I C:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DSTM32F40XX -Dinline="__inline" -DUSE_STDPERIPH_DRIVER -DSTM32F40XX-o .\objects\adisrecv.o --omf_browse .\objects\adisrecv.crf --depend .\objects\adisrecv.d)
+I (src\AdisRecv.h)(0x57BE966F)
 I (.\Libraries\mbed\api\mbed.h)(0x574D223E)
 I (.\Libraries\mbed\api\platform.h)(0x574D223E)
 I (.\Libraries\mbed\targets\hal\TARGET_STM\TARGET_STM32F4XX\device.h)(0x574D223E)
